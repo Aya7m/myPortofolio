@@ -1,0 +1,286 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+ 
+}
+#home{
+ background-color:#CE5A67 ;
+ height: 100vh;
+    
+}
+#home h2,h3,h1{
+    color: #FCF5ED;
+
+}
+#home .cod i{
+    font-size: 70px;
+}
+#home span {
+    color: #F4BF96;
+}
+#download{
+    font-size: 20px;
+}
+.btn-danger {
+    --bs-btn-color: #CE5A67;
+    --bs-btn-bg: #FCF5ED;
+    --bs-btn-border-color: #CE5A67;
+    --bs-btn-hover-color: #FCF5ED;
+    --bs-btn-hover-bg: #F4BF96;
+    
+}
+
+#about{
+    background-color: #FCF5ED;
+}
+#about h2,.text,.icon{
+    color: #CE5A67;
+}
+#about p{
+    line-height: 35px;
+    font-size: 20px;
+}
+#about h2{
+    background-color: #F4BF96;
+    width: 300px;
+    margin: auto;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+   
+}
+#about h2:hover{
+    width: 400px;
+    transform: skewX(-30deg);
+    cursor: pointer;
+}
+#projects{
+    background-color: #CE5A67;
+}
+#projects i{
+color: #CE5A67;
+}
+#projects h2{
+    color:#CE5A67;
+    background-color: #FCF5ED;
+    width: 300px;
+    margin: auto;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+   
+}
+#projects h2:hover{
+   
+    width: 400px;
+    transform: skewX(-30deg);
+    cursor: pointer;
+}
+#projects h6{
+    color: #FCF5ED;
+}
+.card img{
+   
+    height: 400px;
+    transition: all 0.5s;
+    position: relative;
+
+   
+}
+.card .figer:hover{
+    transform: scale(1.1);
+    
+   
+
+}
+.card .figer:hover .layer{
+    transform: translateY(0%);
+    
+
+}
+
+.card h5, p{
+    color: #FCF5ED;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.cart a,i{
+    color: #FCF5ED;
+    
+}
+.card-body{
+    background-color: #F4BF96;
+    border: 2px solid #CE5A67;
+}
+.card{
+    border: 3px solid #FCF5ED;
+    overflow: hidden;
+    
+}
+.layer{
+    position: absolute;
+    background-color: #fcf5edbf;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-100%);
+   
+}
+.layer .demo h5,.arro{
+    color: #CE5A67;
+    font-size: 20px;
+}
+#skils{
+    background-color: #FCF5ED;
+}
+#skils i{
+    color: #CE5A67;
+    font-size: 100px;
+}
+.progress-bar{
+    background-color: #CE5A67;
+}
+#skils img{
+    width: 150px;
+    height: 150px;
+}
+
+#skils .skils{
+    background-color: #CE5A67;
+    width: 300px;
+    margin: auto;
+    color: #FCF5ED;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+#skils{
+    padding: 30px;
+}
+#skils .skils:hover{
+ color: #F4BF96;
+    width: 400px;
+    transform: skewX(-30deg);
+    cursor: pointer;
+}
+#connect{
+    background-color: #CE5A67;
+    padding-bottom: 50px;
+}
+#connect .skils{
+    background-color: #F4BF96;
+    width: 300px;
+    margin: auto;
+    color: #FCF5ED;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+#connect .skils:hover{
+    color: #FCF5ED;
+    width: 400px;
+    transform: skewX(-30deg);
+    cursor: pointer;
+    
+}
+#connect h2,span{
+    color: #FCF5ED;
+}
+#connect {
+    color: #F4BF96;
+    font-size: 15px;
+}
+footer{
+    background-color: #FCF5ED;
+    text-align: center;
+}
+footer img{
+    width: 200px;
+}
+footer i{
+    color: #CE5A67;
+}
+footer i:hover{
+   color: rgb(37, 37, 37);
+}
+footer p,.hr{
+    color: #CE5A67;
+}
+
+#home .lfg i:hover{
+color: #F4BF96;
+}
+
+
+
+
+#boxcontainer{
+    
+    position: fixed;
+    top: 100px;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+#boxcolor{
+    background-color: #eee;
+    margin: 0;
+   
+}
+#boxicon{
+    background-color: #F4BF96;
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+#boxcolor span{
+    width: 40px;
+    height: 40px;
+    background-color: #09c;
+    display: inline-block;
+    cursor: pointer;
+}
+nav .nav-link{
+    transition: all 1s;
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+    color: #CE5A67;
+}
+nav .nav-link:hover{
+    color: #F4BF96;
+    border-bottom: #CE5A67 1px solid;
+
+}
+
+
+/* .navbar-nav .nav-link.active,.navbar-nav .nav-link.show{
+    color: #CE5A67;
+    font-weight: bold;
+} */
+/* nav .nav-link:hover{
+    color: #CE5A67;
+    font-weight: bold;
+
+} */
+.up{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+   background-color: #F4BF96;
+    color: #FCF5ED;
+    width: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
